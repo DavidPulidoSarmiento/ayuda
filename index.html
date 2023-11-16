@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets\css\style.css">
   <link rel="stylesheet" href="assets/css/helpers.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="assets/js/script.js"></script>
 </head>
 
 <body>
@@ -45,6 +46,7 @@
         </nav>
       </div>
     </div>
+
   </header>
 
   <!-- Contenedor para el layout o plantilla -->
@@ -66,6 +68,38 @@
           </div>
         </div>
       </div>
+
+      <!-- Contenedor para la sección de navegación -->
+      <div class="navbar">
+        <!-- ... (código existente) ... -->
+
+        <!-- Nueva card -->
+        <article class="card">
+          <div class="card__header">
+            <a href="#" class="card__title">
+              Biografía
+            </a>
+          </div>
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">Fiestero</button>
+            <button type="button" class="btn btn-primary">Divertido</button>
+            <button type="button" class="btn btn-primary">Social</button>
+          </div>
+          <div class="card__body">
+            <div class="card__content">
+              <p class="card__text">
+                Disfruto creando proyectos.
+              </p>
+              <div class="tags">
+                <!-- Puedes agregar etiquetas aquí si es necesario -->
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- ... (resto del código existente) ... -->
+      </div>
+
       <!-- Contenedor para el menu -->
       <nav class="navigation mt-2 mb-2 sticky">
         <ul class="list">
@@ -96,6 +130,8 @@
           </li>
         </ul>
       </nav>
+
+
     </div>
 
     <!-- Sección principal de la plantilla -->
@@ -126,7 +162,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck1">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
               </a>
             </div>
           </div>
@@ -157,7 +195,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck2">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
               </a>
             </div>
           </div>
@@ -188,7 +228,10 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck3">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+
               </a>
             </div>
           </div>
@@ -219,7 +262,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck4">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
               </a>
             </div>
           </div>
@@ -250,7 +295,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck5">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
               </a>
             </div>
           </div>
@@ -281,7 +328,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck6">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
               </a>
             </div>
           </div>
@@ -312,7 +361,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck7">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
               </a>
             </div>
           </div>
@@ -343,7 +394,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck8">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
               </a>
             </div>
           </div>
@@ -374,7 +427,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck9">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
               </a>
             </div>
           </div>
@@ -405,7 +460,9 @@
                 <span class="tags__prefix">#</span>Tag 3
               </a>
               <a href="#" class="tags__link">
-                <span class="tags__prefix">#</span>Tag 4
+                <div class="btn-group-vertical" role="group" aria-label="Basic checkbox toggle button group">
+                  <label class="btn btn-outline-primary" for="btncheck10">Follow</label>
+                  <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
               </a>
             </div>
           </div>
@@ -414,7 +471,7 @@
 
     </main>
 
-    <!-- ontenedor para la sección informativa -->
+    <!-- Contenedor para la sección informativa -->
     <aside class="sidebar">
       <section class="card">
         <div class="card__header">
@@ -451,9 +508,44 @@
           </ul>
         </div>
       </section>
+
+
+      <!-- Lista de Destacados -->
+
+      <section class="card mt-2">
+        <button type="button" class="btn btn-primary position-relative">
+          Buzon
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+          </span>
+        </button>
+        <div class="card__header">
+          <h3 class="card__title">
+            Destacados
+          </h3>
+        </div>
+        <div class="card__body">
+          <ul class="list">
+            <li class="list__item">
+              <a href="#" class="list__link">
+                Se promocionan viajes a la luna.
+              </a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">
+                Elon Musk y su reconocido chip.
+              </a>
+            </li>
+            <li class="list__item">
+              <a href="#" class="list__link">
+                Aliexpress en promoción.
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </aside>
   </div>
-
 </body>
 
 </html>
